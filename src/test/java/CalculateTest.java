@@ -7,9 +7,9 @@ import static junit.framework.TestCase.assertEquals;
 public class CalculateTest {
     @Test
     public void testCalA() throws Exception {
-    Calculate calculate = new Calculate();
-    int n = calculate.calA(3, 2);
+        Calculate calculate = new Calculate();
+        int n = calculate.calA(3, 2);
 
-    assertEquals(5, n);
+        assertEquals(5, n);
     }
 }
